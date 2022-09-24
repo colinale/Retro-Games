@@ -1,0 +1,32 @@
+{
+  "name": "retro-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node seeders/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredElick/Retro-Games.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredElick/Retro-Games/issues"
+  },
+  "homepage": "https://github.com/FredElick/Retro-Games#readme",
+  "dependencies": {
+    "apollo-server-express": "^3.10.2",
+    "bcrypt": "^5.0.1",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.9.1",
+    "mongoose": "^6.6.1",
+    "node": "^18.9.0",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0"
+  }
+}
